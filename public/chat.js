@@ -1,4 +1,4 @@
-let socket = io.connect("http://localhost:5000");
+let socket = io.connect("https://git.heroku.com/video-chat-v-1.git");
 let divVideoChatLobby = document.getElementById("video-chat-lobby");
 let divVideoChat = document.getElementById("video-chat-room");
 let joinButton = document.getElementById("join");
